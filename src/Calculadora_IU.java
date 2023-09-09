@@ -148,7 +148,7 @@ public class Calculadora_IU extends javax.swing.JFrame {
         // TODO add your handling code here:
         double nro1=Double.parseDouble(txtNro1.getText());
         double nro2=Double.parseDouble(txtNro2.getText());
-        double restar =nro1+nro2;
+        double restar =nro1-nro2;
         JOptionPane.showMessageDialog(this, "La resta es: "+restar);
     }//GEN-LAST:event_btnRestaActionPerformed
 
@@ -156,7 +156,7 @@ public class Calculadora_IU extends javax.swing.JFrame {
         // TODO add your handling code here:
         double nro1=Double.parseDouble(txtNro1.getText());
         double nro2=Double.parseDouble(txtNro2.getText());
-        double multiplicar =nro1+nro2;
+        double multiplicar =nro1*nro2;
         JOptionPane.showMessageDialog(this, "La multiplicacion es: "+multiplicar);
     }//GEN-LAST:event_btnMultiplicarActionPerformed
 
@@ -164,7 +164,7 @@ public class Calculadora_IU extends javax.swing.JFrame {
         // TODO add your handling code here:
         double nro1=Double.parseDouble(txtNro1.getText());
         double nro2=Double.parseDouble(txtNro2.getText());
-        double dividir =nro1+nro2;
+        double dividir =nro1/nro2;
         JOptionPane.showMessageDialog(this, "La divicion es: "+dividir);
     }//GEN-LAST:event_btnDividirActionPerformed
 
